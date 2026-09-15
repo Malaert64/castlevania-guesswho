@@ -13,11 +13,13 @@ const CHARS = Object.freeze([
 ])
 
 
-/* On load, randomly select player's character. */
+/* On load, randomly select player's character and update text/img. */
 window.addEventListener("load", () => {
     let randChar = CHARS[Math.floor(Math.random() * CHARS.length)]
+    let filename = "assets/Char_" + randChar.replace(/[\s.]/g, "") + ".png";
 
     document.getElementById("player-char").textContent = randChar;
+    document.getElementById("player-char-img").src = filename;
 });
 
 /* Make character images clickable, and toggle between 
