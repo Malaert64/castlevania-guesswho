@@ -3,7 +3,7 @@ const CHARS = Object.freeze([
     "Leon Belmont", "Sonia Belmont", "Trevor Belmont", "Christopher Belmont", "Soleiyu Belmont", "Desmond Belmont", "Simon Belmont", "Juste Belmont", "Richter Belmont", "Julius Belmont", "Kokoro Belmont", "Sepia Belmont",
     "Grant Danasty", "Sypha Belnades", "Alucard", "Hector", "Maxim Kischine", "Maria Renard", "Shanoa", "Albus", "Nathan Graves", "Cornell", "Reinhardt Schneider", "Carrie Fernandez",
     "Quincy P. Morris", "John Morris", "Eric Lecarde", "Jonathan Morris", "Charlotte Aulin", "Stella Lecarde", "Loretta Lecarde", "Soma Cruz", "Genya Arikado", "Yoko Belnades", "Kid Dracula", "Rinaldo Gandolfi",
-    "Sara Trantoul", "Lisa", "Julia Laforeze", "Saint Germain", "Lydie Erlanger", "Merchant", "Annette", "Master Librarian", "Jacob", "Laura", "Hugh Baldwin", "Maurice Baldwin",
+    "Sara Trantoul", "Lisa", "Julia Laforeze", "Saint Germain", "Lydie Erlanger", "Merchant", "Annette", "Master Librarian", "Jacob", "Laura", "Hugh Baldwin", "Morris Baldwin",
     "Charlie Vincent", "Rosa", "Vincent Dorin", "Mina Hakuba", "Hammer", "Aeon", "Joachim Armster", "Walter Bernhard", "Death", "Mathias Cronqvist", "Dracula Vlad Tepes", "Carmilla", 
     "Count Olrox", "Shaft", "Succubus", "Barlowe", "Actrise", "Gilles de Rais", "Malus", "Elizabeth Bartley", "Brauner", "Graham Jones", "Celia Fortner",
     "Dmitrii Blinov", "Dario Bossi", "Spear Knight", "Skeleton Biker"
