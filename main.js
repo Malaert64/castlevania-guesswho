@@ -5,8 +5,8 @@ const CHARS = Object.freeze([
     "Quincy P. Morris", "John Morris", "Eric Lecarde", "Jonathan Morris", "Charlotte Aulin", "Stella Lecarde", "Loretta Lecarde", "Soma Cruz", "Genya Arikado", "Yoko Belnades", "Kid Dracula", "Rinaldo Gandolfi",
     "Sara Trantoul", "Lisa", "Julia Laforeze", "Saint Germain", "Lydie Erlanger", "Merchant", "Annette", "Master Librarian", "Jacob", "Laura", "Hugh Baldwin", "Maurice Baldwin",
     "Charlie Vincent", "Rosa", "Vincent Dorin", "Mina Hakuba", "Hammer", "Aeon", "Joachim Armster", "Walter Bernhard", "Death", "Mathias Cronqvist", "Dracula Vlad Tepes", "Carmilla", 
-    "Olrox", "Shaft", "Barlowe", "Actrise", "Gilles de Rais", "Malus", "Elizabeth Bartley", "Brauner", "Graham Jones", "Celia Fortner", "Dmitrii Blinov",
-    "Dario Bossi", "Spear Knight", "Skeleton Biker", "Succubus", "Galamoth", "Chaos", "Menace"
+    "Olrox", "Shaft", "Succubus", "Barlowe", "Actrise", "Gilles de Rais", "Malus", "Elizabeth Bartley", "Brauner", "Graham Jones", "Celia Fortner",
+    "Dmitrii Blinov", "Dario Bossi", "Spear Knight", "Skeleton Biker"
 ])
 
 
