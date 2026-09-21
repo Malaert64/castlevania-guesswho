@@ -1,8 +1,10 @@
 # Castlevania Guess Who
 ### A browser-based interface for playing a Castlevania-themed variant of Hasbro's "Guess Who?" board game.
-On page load, you're provided with a random character to play as, and a grid of 76 total characters to narrow down and guess from.
+On page load, you're provided with a random character to play as, and a grid of 80 total characters to narrow down and guess from.
 
 Left-click on a character's portrait to toggle it on/off as you ask your opponent questions and eliminate possibilities.
+
+Hovering over any character's portrait will display a tooltip (just the `img` tag `title` attribute) with their name in a wholly-readable font.
 
 ## Credits
 Some acknowledgement are in order for this project:

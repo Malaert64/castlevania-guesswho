@@ -2,11 +2,11 @@
 const CHARS = Object.freeze([
     "Leon Belmont", "Sonia Belmont", "Trevor Belmont", "Christopher Belmont", "Soleiyu Belmont", "Desmond Belmont", "Simon Belmont", "Juste Belmont", "Richter Belmont", "Julius Belmont", "Kokoro Belmont", "Sepia Belmont",
     "Grant Danasty", "Sypha Belnades", "Alucard", "Hector", "Maxim Kischine", "Maria Renard", "Shanoa", "Albus", "Nathan Graves", "Cornell", "Henry Oldrey", "Reinhardt Schneider",
-    "Carrie Fernandez", "Quincy P. Morris", "John Morris", "Eric Lecarde", "Jonathan Morris", "Charlotte Aulin", "Loretta Lecarde", "Stella Lecarde", "Soma Cruz", "Genya Arikado", "Yoko Belnades", "Kid Dracula",
-    "Rinaldo Gandolfi", "Sara Trantoul", "Lisa", "Julia Laforeze", "Saint Germain", "Lydie Erlanger", "Merchant", "Annette", "Master Librarian", "Jacob", "Laura", "Hugh Baldwin",
-    "Morris Baldwin", "Charlie Vincent", "Rosa", "Vincent Dorin", "Mina Hakuba", "Hammer", "Aeon", "Joachim Armster", "Walter Bernhard", "Death", "Mathias Cronqvist", "Dracula Vlad Tepes", 
-    "Carmilla", "Count Olrox", "Shaft", "Succubus", "Barlowe", "Actrise", "Gilles de Rais", "Malus", "Elizabeth Bartley", "Brauner", "Graham Jones", "Celia Fortner",
-    "Dmitrii Blinov", "Dario Bossi", "Spear Knight", "Skeleton Biker"
+    "Carrie Fernandez", "John Morris", "Eric Lecarde", "Jonathan Morris", "Charlotte Aulin", "Loretta Lecarde", "Stella Lecarde", "Old Axe Armor", "Soma Cruz", "Yoko Belnades", "Kid Dracula", "Aeon", 
+    "Rinaldo Gandolfi", "Sara Trantoul", "Lisa", "Lyudmil", "Julia Laforeze", "Saint Germain", "Lydie Erlanger", "Merchant", "Annette", "Master Librarian", "Jacob", "Laura",
+    "Hugh Baldwin", "Morris Baldwin", "Charlie Vincent", "Rosa", "Quincy P. Morris", "Vincent Dorin", "Mina Hakuba", "Genya Arikado", "Hammer", "Joachim Armster", "Walter Bernhard", "Death",
+    "Mathias Cronqvist", "Dracula Vlad Tepes", "Isaac", "Carmilla", "Count Olrox", "Shaft", "Succubus", "Barlowe", "Actrise", "Gilles de Rais", "Malus", "Elizabeth Bartley", 
+    "Brauner", "Graham Jones", "Celia Fortner", "Dmitrii Blinov", "Dario Bossi", "Spear Knight", "Skeleton Biker", "Pumpkin"
 ])
 
 
@@ -18,6 +18,8 @@ window.addEventListener("load", () => {
     // Replace text and image via getElementById.
     document.getElementById("player-char").textContent = randChar;
     document.getElementById("player-char-img").src = filename;
+    document.getElementById("player-char-img").title = randChar;
+    document.getElementById("player-char-img").alt = randChar;
 
     const charContainer = document.getElementById("char-imgs");
 
