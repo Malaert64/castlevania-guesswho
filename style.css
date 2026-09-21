@@ -7,7 +7,9 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: "UnifrakturMaguntia", cursive;
+  color: #fcfcfc;
   letter-spacing: 0.075em;
+  background-color: #010101;
 }
 
 h2 {
@@ -33,7 +35,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 
     img {
         padding: 0em 1em 0em 1em;
@@ -43,10 +45,11 @@ h1 {
 }
 
 #char-imgs {
+    justify-content: center;
     display: flex;
     flex: 75;
     flex-wrap: wrap;
-    background-color: aqua;
+    /* background-color: aqua; */
     gap: 1em;
 
     img {
