@@ -2,14 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 
 html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  font-family: "UnifrakturMaguntia", cursive;
-  color: #fcfcfc;
-  letter-spacing: 0.075em;
-  background-color: #010101;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "UnifrakturMaguntia", cursive;
+    color: #fcfcfc;
+    letter-spacing: 0.075em;
+    background-color: #010101;
+    background-image: url("assets/PoR_Credits_Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    image-rendering: crisp-edges;
+}
+
+body > * {
+    image-rendering: initial;
 }
 
 h2 {
