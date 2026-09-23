@@ -6,6 +6,8 @@ Left-click on a character's portrait to toggle it on/off as you ask your opponen
 
 Hovering over any character's portrait will display a tooltip (just the `img` tag `title` attribute) with their name in a wholly-readable font.
 
+Deployed on GitHub pages here: https://malaert64.github.io/castlevania-guesswho/
+
 ## Credits
 Some acknowledgement are in order for this project:
 * Hasbro, who own the rights to the actual "Guess Who" board game IP
