@@ -8,6 +8,8 @@ Hovering over any character's portrait will display a tooltip (just the `img` ta
 
 Deployed on GitHub pages here: https://malaert64.github.io/castlevania-guesswho/
 
+*Dynamically laying-out and accessibly scaling this many visual elements is a difficult task, so you will probably have to mess around a bit with your browser window size and zoom scale to make things look good.*
+
 ## Credits
 Some acknowledgement are in order for this project:
 * Hasbro, who own the rights to the actual "Guess Who" board game IP
